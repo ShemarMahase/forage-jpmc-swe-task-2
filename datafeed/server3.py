@@ -23,7 +23,7 @@ from random import normalvariate, random
 from datetime import timedelta, datetime
 
 import csv
-import dateutil.parser
+import dateutil.parser # type: ignore
 import os.path
 
 import operator
